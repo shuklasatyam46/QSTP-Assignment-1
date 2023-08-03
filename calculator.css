@@ -1,0 +1,48 @@
+#root{
+    display: grid;
+    grid-template-rows: 30px 30px 30px 30px;
+    grid-template-columns: 500px;
+    margin-top: 125px;
+    margin-inline-start: 500px;
+    margin-inline-end: auto;
+    grid-gap: 5px;
+    
+    
+
+}
+
+.head{
+    display: flex;
+    background:linear-gradient(rgb(206, 50, 206),rgb(143, 15, 143));
+    color: rgb(255, 255, 255);
+    font:bolder;
+    height: 65px;
+    margin-top: 0;
+}
+.head>h1{
+    margin-right: auto;
+    padding-left: 20px;
+    margin-top: 15px;
+}
+
+.head>h2{
+    margin-left: auto;
+    padding-right: 20px;
+}
+
+#root>button{
+    background: linear-gradient(rgb(206, 50, 206),
+        rgb(143, 15, 143));
+    color:whitesmoke;
+    grid-column: 1/-1;
+    border-radius: 5px;
+}
+#h-el{
+    padding-left: 20px;
+}
+body{
+    background: linear-gradient(rgb(222, 226, 230),rgb(197, 197, 207));
+}
+#root>input{
+    border-radius: 5px;
+}
