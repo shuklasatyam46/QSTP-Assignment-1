@@ -3,7 +3,6 @@
     grid-template-rows: 30px 30px 30px 30px;
     grid-template-columns: 500px;
     margin-top: 125px;
-    margin-inline-start: auto;
     margin-inline-end: auto;
     grid-gap: 5px;
     
